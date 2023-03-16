@@ -19,6 +19,7 @@ Router.put('/update/:investigationId', investigationController.updateInvestigati
 
 
 Router.post('/create', pController.createP)
+Router.get('/getByDay/:pId',pController.getInvestigationByDay)
 Router.put('/updateVisit/:pId', pController.updateVisit)
 
 
