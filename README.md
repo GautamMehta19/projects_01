@@ -20,9 +20,6 @@ MySQL / MongoDB / SQLite
 -----------------------
 
 -----------------------
-Google Meet Link –
-https://meet.google.com/ggn-fnaj-eqg
------------------------
 
 Refer Attached Image -
 
