@@ -29,16 +29,7 @@ const getInvestigationByDay = async function (req, res){
         let data = req.query
         let pId = req.params.pId
 
-        let {visitedDay,investigation} = data
-
-        let obj = {}
-
-        if(visitedDay){
-            obj.visitedDay = visitedDay
-        }
-        if(investigation){
-            obj.investigation = investigation
-        }
+        let {visitedDay} = data
 
         let getData = await pModel.findById({_id :pId})
         let item = getData.visited

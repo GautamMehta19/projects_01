@@ -28,7 +28,8 @@ const getInvestigation = async function(req, res){
 
         let patientId = req.params.patientId
 
-        let getPatient = await investigationModel.find({patientId : patientId}).populate('patientId')
+        // let getPatient = await investigationModel.find({patientId : patientId}).populate('patientId')
+        let getPatient = await investigationModel.find({patientId : patientId})
         return res.status(201).send({
             status: true,
             message: 'successfully Investigation created',
